@@ -31,6 +31,7 @@ cd ..
 ```
 - Make sure all dependent packages are installed. You can check .travis.yml file for reference.
 - Specifically, make sure that the ros package *ddynamic_reconfigure* is installed. If *ddynamic_reconfigure* cannot be installed using APT, you may clone it into your workspace 'catkin_ws/src/' from [here](https://github.com/pal-robotics/ddynamic_reconfigure/tree/kinetic-devel) (Version 0.2.0)
+- For ORBSLAM_2 and the launcher rs_camera_depth_rectifier is necessary to have installed the package depth_image_proc. This is the [package](http://wiki.ros.org/depth_image_proc)
 
 ```bash
 catkin_init_workspace
